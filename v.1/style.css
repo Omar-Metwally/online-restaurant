@@ -1,0 +1,378 @@
+@font-face {
+    font-family: 'boom';
+    src: url(Fonts/BadaBoom\ Pro\ BB.otf);
+}
+@font-face {
+    font-family: 'marian';
+    src: url(Fonts/CCMarianChurchland-Regular.ttf);
+}
+@font-face {
+    font-family: 'bigbad';
+    src: url(Fonts/BigBadBoldBB-BoldItalic.ttf);
+}
+@@font-face {
+  font-family: 'cursive'
+  src: url(Font/cursive.ttf);
+}
+
+
+.header{
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  background-color: #e3e6f3;
+  padding: 10px;
+  box-decoration-break: 0 15px rgba(0, 0, 0, 0.06);
+  font-family: sans-serif;
+  z-index: 999;
+  position: sticky;
+  top: 0;
+  left: 0;
+}
+.navbar{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 28px;
+}
+.navbar li{
+  list-style: none;
+  padding: 0 20px;
+}
+
+.navbar li a{
+  text-decoration: none;
+  color: black;
+  font-weight: 600;
+}
+.navbar li a:hover,
+.navbar li a.active{
+  color: gold;
+  transition: 0.3s;
+}
+body {
+  background-image: linear-gradient(to bottom right, white, gray);
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-size: cover;
+}
+.intro {
+  text-align: center;
+  font-size: 28px;
+  font-family: cursive;
+  margin: 20px;
+}
+.sidescroll {
+  justify-content: center;
+  display: center;
+  max-height: 1000px;
+  align-content: center;
+  margin: 10px;
+
+}
+.card {
+  display: inline-block;
+  width: 200px;
+  height: 150px;
+  border-width: .5px;
+  border-color: grey;
+  border-style: outset;
+  text-align: center;
+  text-align-last:center;
+  box-shadow: 20px 20px 34px rgba(0, 0, 0, 0.1);
+  margin: 10px;
+}
+.p {
+  font-size: 18px;
+}
+.Username {
+display: flex;
+justify-content: center;
+}
+.storeoutterbox {
+  display: inline-block;
+  max-width: 1600px;
+  max-height: 3600px;
+  border-width: 2px;
+  border-color: rgb(0, 0, 0);
+  border-style: dashed;
+  text-align: center;
+  box-shadow: 20px 20px 34px rgba(0, 0, 0, 0.1);
+  border-radius: 10px;
+}
+.dish {
+  font-size: 28px;
+  font-family: boom;
+}
+.pic {
+  border-width: 5.5px;
+  border-color: grey;
+  border-style: double;
+  margin: 10px;
+}
+.dishs {
+  display: inline-block;
+  border-color: rgb(0, 0, 0);
+  background: #a6a6a6;
+  margin: 10px;
+  box-shadow: 10px 10px 12px rgba(0, 0, 0, 0.4);
+  height: 250px;
+  width: 200px;
+  text-align: center;
+  border-radius: 10px;
+}
+.name {
+  font-size: 22px;
+  font-family: marian;
+}
+.desc {
+  font-size: 18px;
+  font-family: marian;
+}
+.storesidescroll {
+    justify-content: center;
+    display: center;
+    text-align: center;
+    max-height: 3700px;
+    align-content: center;
+}
+.innerbox {
+  display: block;
+  align-items: center;
+  justify-content: center;
+  border-width: 2px;
+  box-shadow: 4px 3px 5px rgba(0, 0, 0, 0.322);
+  background-color: rgb(203, 212, 227);
+  border-color: grey;
+  border-style: double;
+  margin: 50px;
+  border-radius: 10px;
+}
+.outterbox{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 28px;
+  margin: 30px;
+}
+.margin{
+  margin: 10px;
+}
+.div1{
+  display: flex;
+  justify-content: flex-start;
+  text-align: left;
+}
+.marginsignup{
+  margin-right:50px;
+  float: right;
+}
+.scroll{
+  width: 100%;
+}
+.price{
+  color: gold;
+}
+.marginleft{
+  margin: 10px;
+  margin-left: 50px;
+
+}
+.marginright{
+  margin: 5px;
+  margin-left: 0px;
+  margin-right:50px;
+  float: right;
+  padding: 5px 10px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  font-size: 15px
+  padding: 0;
+  box-sizing: border-box;
+}
+.divcontact{
+  display: block;
+  justify-content: space-between;
+  height: 10px;
+}
+.Contactinnerbox {
+  display: block;
+  align-items: center;
+  justify-content: center;
+  border-width: 2px;
+  border-color: grey;
+  border-style: double;
+  margin: 50px;
+  max-height: 700px;
+  max-width: 1900px;
+  border-radius: 10px;
+  box-shadow: 4px 3px 5px rgba(0, 0, 0, 0.322);
+  background-color: rgb(203, 212, 227);
+}
+.Contactoutterbox{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 28px;
+  margin: 30px;
+}
+.margincenter{
+  margin: 10px;
+  text-align: center;
+}
+.marginupdown{
+  margin-top: 30px;
+  margin-bottom: 30px;
+}
+.html{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.body
+{
+    background-color: hwb(0 83% 17%);
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.container
+{
+    max-width: 900px;
+    margin: 0 auto;
+}
+.apply_box
+{
+    max-width: 600px;
+    padding: 20px;
+    background-color: rgb(203, 212, 227);
+    margin: 0 auto;
+    margin-top: 50px;
+    box-shadow: 4px 3px 5px rgba(0, 0, 0, 0.322);
+    border-radius: 10px;
+    text-align: center;
+}
+.title_small
+{
+    font-size: 20px;
+}
+.form_container
+{
+    margin-top: 20px;
+    display: grid;
+    grid-template-columns: repeat(auto-fit,minmax(200px,1fr));
+    gap: 20px;
+}
+.form_control
+{
+    display: flex;
+    flex-direction: column;
+    font-weight: bolder;
+}
+.label
+{
+    font-size: 15px;
+    margin-bottom: 5px;
+}
+.input,
+.select,
+.textarea{
+    padding: 6px 10px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    font-size: 15px
+    padding: 0;
+    box-sizing: border-box;
+  }
+.input:focus
+{
+    outline-color: rgb(38,0,255);
+}
+.button_container
+{
+    display: flex;
+    justify-content: flex-end;
+    margin-top: 20px;
+}
+.button
+{
+    background-color: grey;
+    border: transparent;
+    padding:5px 10px;
+    color: white;
+    border-radius: 8px;
+    transition: 0.3s ease-in;
+
+}
+.button:hover
+{
+    background-color: gold;
+    border: 2px solid grey;
+    color:black;
+    transition: 0.3s ease-out;
+    cursor: pointer;
+
+}
+.textarea_control
+{
+    grid-column: 1 / span 2;
+    font-weight: bolder;
+}
+.textarea_control textarea
+{
+    width: 100%;
+}
+@media (max-width:460px)
+{
+    .textarea_control{
+        grid-column:1/ span 1;
+    }
+}
+.button_container1
+{
+    display: flex;
+    justify-content: center;
+    margin: 20px;
+}
+.button_container2
+{
+    display: flex;
+}
+
+.marginleftbutton
+{
+    background-color: grey;
+    border: transparent;
+    color: white;
+    padding:5px 10px;
+    border-radius: 8px;
+    transition: 0.3s ease-in;
+}
+.marginleftbutton:hover
+{
+    background-color: gold;
+    border: 2px solid grey;
+    color:black;
+    transition: 0.3s ease-out;
+    cursor: pointer;
+
+}
+.textarea1{
+    padding: 6px 10px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    font-size: 15px
+    padding: 0;
+    box-sizing: border-box;
+    margin: 5px;
+    margin-left: 50px;
+    margin-right:50px;
+    float: right;
+    padding: 5px 10px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    font-size: 15px
+    padding: 0;
+    box-sizing: border-box;
+}

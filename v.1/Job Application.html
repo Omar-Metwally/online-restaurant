@@ -1,0 +1,105 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>The Unemployed Restaurant</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel ="icon" href ="logos/logo.png"/>
+</head>
+<body class="body">
+  <section class="header">
+    <a href="Homepage.html"><img src="logos/logo.png" width="100" height="100"></a>
+  <div>
+    <ul class="navbar">
+      <li><a href="Homepage.html">Home</a></li>
+      <li><a href="Store.html">Store</a></li>
+      <li><a href="Contact us.html">Contact us</a></li>
+      <li><a class="active" href="Jobs.html">Jobs</a></li>
+      <li><a href="Login.html">Login</a></li>
+    </ul>
+  </div>
+  </section>
+    <div class="container">
+        <div class="apply_box">
+            <h1>
+                Join US!
+                <span class="title_small">(web)</span>
+            </h1>
+            <form action="">
+                <div class="form_container">
+                    <div class=form_control>
+                        <label class="label"  for="first_name">First Name</label>
+                        <input class="input" type="text"
+                            id="first_name"
+                            name="first_name"
+                            placeholder="Enter First Name.."
+                            required
+                            />
+                    </div>
+                    <div class="form_control">
+                        <label class="label"  for="last_name">Last Name</label>
+                         <input class="input" type="text"
+                            id="last_name"
+                            name="last_name"
+                            placeholder="Enter Last Name.."
+                            required
+                            />
+                    </div>
+                    <div class="form_control">
+                        <label class="label"  for="email">Email</label>
+                        <input class="input"
+                            type="email"
+                            id="email"
+                            name="email"
+                            placeholder="Enter Your Email.."
+                            required
+                        />
+                    </div>
+                    <div class="form_control">
+                        <label class="label"  for="job_role">Job Role</label>
+                        <select class="select"  name="job_role" id="job_role" required>
+                            <option value="">Select Job Role</option>
+                            <option value="delivery">Delivery</option>
+                            <option value="chef">Chef</option>
+                            <option value="cashier">Cashier</option>
+                        </select>
+                    </div>
+                    <div class="textarea_control">
+                        <label class="label"  for="address">Address</label>
+                        <textarea class="textarea"  name="address" id="address" cols="50" rows="4" placeholder="Enter Address" required></textarea>
+                    </div>
+                    <div class="form_control">
+                        <label class="label"  for="city">City</label>
+                        <input class="input" type="text"
+                        id="city"
+                        name="city"
+                        placeholder="Enter City Name.."
+                        />
+                    </div>
+                    <div class="form_control">
+                        <label class="label"  for="date">Date Of Birth</label>
+                        <input  class="input" value="1999-01-01"
+                        type="date"
+                        id="date"
+                        name="date"
+                        />
+                    </div>
+                    <div class="form_control">
+                        <label class="label"  for="upload">Upload Your CV</label>
+                        <input  class="input" type="file"
+                        id="upload"
+                        name="upload"
+                        required
+                        />
+                    </div>
+                    <div class="button_container">
+                        <button class="button" type="submit">Apply Now</button>
+                    </div>
+                </div>
+            </form>
+        </div>
+    </div>
+</body>
+</html>
